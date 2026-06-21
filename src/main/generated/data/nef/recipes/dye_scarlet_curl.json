@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nef:scarlet_curl"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_dye"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "nef:dye_voidmoss"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_voidmoss": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nef:voidmoss"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_voidmoss",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "nef:dye_voidmoss"
+    ]
+  },
+  "sends_telemetry_event": false
+}

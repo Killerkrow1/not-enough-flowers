@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nef:phantom_lace"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_dye"
+  }
+}

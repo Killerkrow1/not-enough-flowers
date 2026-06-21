@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nef:glassleaf"
+    }
+  ],
+  "result": {
+    "item": "minecraft:green_dye"
+  }
+}
