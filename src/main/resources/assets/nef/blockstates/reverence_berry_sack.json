@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "nef:block/reverence_berry_sack", "y": 180  },
+    "facing=east": { "model": "nef:block/reverence_berry_sack", "y": 270 },
+    "facing=south": { "model": "nef:block/reverence_berry_sack", "y": 0 },
+    "facing=west": { "model": "nef:block/reverence_berry_sack", "y": 90 }
+  }
+}

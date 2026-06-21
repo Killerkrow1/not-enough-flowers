@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "nef",
+	"version": "${version}",
+	"name": "Not Enough Flowers",
+	"description": "Simple mod adding in new flowers to the game, alongside some new food sources.",
+	"authors": [
+		"Killerkrow - Coder, 8bitgunner - Artist"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/nef/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.killerkrow.nef.NotEnoughFlowers"
+		],
+		"client": [
+			"net.killerkrow.nef.NotEnoughFlowersClient"
+		],
+		"fabric-datagen": [
+			"net.killerkrow.nef.NotEnoughFlowersDataGenerator"
+		]
+	},
+	"mixins": [
+		"nef.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

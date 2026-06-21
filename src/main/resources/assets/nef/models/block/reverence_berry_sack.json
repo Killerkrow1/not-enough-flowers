@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "nef:block/bag_bottom",
+    "up": "nef:block/bag_top_reverence",
+    "north": "nef:block/bag_side_knot",
+    "east": "nef:block/bag_side",
+    "south": "nef:block/bag_side",
+    "west": "nef:block/bag_side",
+    "particle": "nef:block/bag_bottom"
+  },
+  "render_type": "solid"
+}

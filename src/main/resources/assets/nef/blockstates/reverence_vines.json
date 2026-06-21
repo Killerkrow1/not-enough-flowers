@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "berries=false": {
+      "model": "minecraft:block/reverence_vines"
+    },
+    "berries=true": {
+      "model": "minecraft:block/reverence_vines_lit"
+    }
+  }
+}
