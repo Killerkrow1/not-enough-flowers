@@ -4,9 +4,12 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.killerkrow.nef.NotEnoughFlowers;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
+import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
+import net.minecraft.registry.tag.ItemTags;
+import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 import java.util.function.Consumer;
@@ -168,5 +171,42 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModBlocks.ASHEN_BUD)
                 .criterion(hasItem(ModBlocks.ASHEN_BUD), conditionsFromItem(ModBlocks.ASHEN_BUD))
                 .offerTo(exporter, new Identifier(NotEnoughFlowers.MOD_ID, "dye_ashen_bud"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REVERENCE_BERRY, 4)
+                .input(Items.GLOW_BERRIES)
+                .input(ItemTags.FLOWERS)
+                .input(ItemTags.FLOWERS)
+                .criterion(hasItem(Items.GLOW_BERRIES), conditionsFromItem(Items.GLOW_BERRIES))
+                .offerTo(exporter, new Identifier(NotEnoughFlowers.MOD_ID, "reverence_berries"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REVERENCE_BERRY)
+                .input(Items.GLOW_BERRIES)
+                .input(ModItems.REVERENCE_STEM)
+                .criterion(hasItem(ModItems.REVERENCE_STEM), conditionsFromItem(ModItems.REVERENCE_STEM))
+                .offerTo(exporter, new Identifier(NotEnoughFlowers.MOD_ID, "stem_to_berry"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BOWL_OF_REVERENCE_BERRIES)
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("BNB")
+                .input('B', ModItems.REVERENCE_BERRY)
+                .input('N', Items.BOWL)
+                .criterion(hasItem(ModItems.REVERENCE_BERRY), conditionsFromItem(ModItems.REVERENCE_BERRY))
+                .offerTo(exporter, new Identifier(NotEnoughFlowers.MOD_ID, "bowl_of_reverence_berries"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.FLOWER_BUNDLE, 2)
+                .pattern("BBB")
+                .pattern("BAB")
+                .pattern("BBB")
+                .input('B', ItemTags.FLOWERS)
+                .input('A', Items.BUNDLE)
+                .criterion(hasItem(ModItems.FLOWER_BUNDLE), conditionsFromItem(ModItems.FLOWER_BUNDLE))
+                .offerTo(exporter, new Identifier(NotEnoughFlowers.MOD_ID, "flower_bundle"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GOLDEN_REVERENCE_BERRY)
+                .pattern("CBC")
+                .pattern("BAB")
+                .pattern("CBC")
+                .input('A', ModItems.REVERENCE_BERRY)
+                .input('B', Items.GOLD_INGOT)
+                .input('C', Items.GOLD_NUGGET)
+                .criterion(hasItem(ModItems.FLOWER_BUNDLE), conditionsFromItem(ModItems.FLOWER_BUNDLE))
+                .offerTo(exporter, new Identifier(NotEnoughFlowers.MOD_ID, "golden_reverence_berry"));
     }
 }

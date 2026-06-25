@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:bundle"
+    },
+    "B": {
+      "tag": "minecraft:flowers"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BAB",
+    "BBB"
+  ],
+  "result": {
+    "count": 2,
+    "item": "nef:flower_bundle"
+  },
+  "show_notification": true
+}

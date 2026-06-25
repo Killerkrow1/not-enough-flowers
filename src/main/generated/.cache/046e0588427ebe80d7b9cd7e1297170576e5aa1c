@@ -1,12 +1,16 @@
-// 1.20.1	2026-06-21T14:44:02.3788041	Not Enough Flowers/Recipes
+// 1.20.1	2026-06-24T21:07:52.1339257	Not Enough Flowers/Recipes
 c409415ac7d814c6ca31427e0514142b09fe4d90 data\nef\recipes\dye_moonbloom.json
+8b0024703ac415fa6ccd23e22b2f9e2f8ecc127d data\nef\recipes\reverence_berries.json
 30613520d1073233ca633f609df3c9495e248331 data\nef\recipes\dye_spiresage.json
+506bd40e20b52c260b39c550ff151fc4e2ea48be data\nef\advancements\recipes\misc\golden_reverence_berry.json
+593564e453cd473af01bed15d6a627f3196bcce7 data\nef\recipes\flower_bundle.json
 17c1a3af61d0b7656b8cd6a2b39dca9ae4bc021b data\nef\recipes\dye_thornshade.json
 f08b649ea447f8addb2f528d68a89f85af1c762e data\nef\recipes\dye_mirage_lotus.json
 cc2b7a31607d7f8b3f1e361512b8e4d8866ca672 data\nef\advancements\recipes\misc\dye_starbright_petal.json
+d221ff25e7ed5872b28fcbe75a36e9655b561280 data\nef\advancements\recipes\misc\flower_bundle.json
 eca52888f15d932309852a7a3243c8b4676403e4 data\nef\advancements\recipes\misc\dye_starshade.json
-91ac07108895268cfa4ffdfb17f23d0ac5a2c6c4 data\nef\recipes\dye_renmi.json
 103fb9f13e45f377452829537f4de48539c83961 data\nef\recipes\dye_kagami_bud.json
+91ac07108895268cfa4ffdfb17f23d0ac5a2c6c4 data\nef\recipes\dye_renmi.json
 e3af8c10b093214b5f36354a93ca70c5d137f379 data\nef\recipes\dye_phanom_lace.json
 f12d34b0f7683d808ff95589cc74c7bba8a1b203 data\nef\advancements\recipes\misc\dye_gilded_orchid.json
 3a4af51653d99285f5fb75a41dd676356c78672a data\nef\advancements\recipes\misc\dye_renmi.json
@@ -32,10 +36,14 @@ dee4edbbbdf32c719b630f97d8332befe4fc8778 data\nef\recipes\dye_brimrose.json
 3c9f52278ddd6c21e2e9e84d9c1e8a838feb0be9 data\nef\recipes\dye_ashen_bud.json
 b56ddef3a054e529ae41718769338982a38aa428 data\nef\recipes\dye_fadewisp.json
 8ba586e1b03e2b642710984f397c5298136ef640 data\nef\recipes\dye_scarlet_curl.json
+2aea75e58cedfa1f2306582c6c47bd20fc326408 data\nef\recipes\stem_to_berry.json
 ab5c110095cb1dcdaaf41bb97aca51e781cf0158 data\nef\advancements\recipes\misc\dye_fadewisp.json
 cea1ddbaa76a72d595c5cd4ea8b848b50977777e data\nef\advancements\recipes\misc\dye_spiresage.json
 18f12c8a3df91979022fa8a6c684f100c75908ee data\nef\advancements\recipes\misc\dye_silverthorn.json
+2f7bc63572edfed117a3fe683fd7b51361090549 data\nef\advancements\recipes\misc\reverence_berries.json
+cb99cf8a264fd75d67fe8d18a4b2650a718177e9 data\nef\advancements\recipes\misc\bowl_of_reverence_berries.json
 6f437385b717d8a9601a651ab3f5ee2a25224f5a data\nef\recipes\dye_akami_rose.json
+d8984e7e632753b083c4f0910e84bd05be0fbcf3 data\nef\recipes\golden_reverence_berry.json
 9b210cbb3728a29718e65c12456e1bea831a61e9 data\nef\recipes\dye_ebon_rose.json
 2dae37b18a5c48729b8ee19361c1558f60100d21 data\nef\recipes\dye_gloomvine.json
 cc5d19fea2cab88191e26994411a5a06b556cd0c data\nef\advancements\recipes\misc\dye_spectral_orchid.json
@@ -51,10 +59,10 @@ bf055ebc5e26a976c7af5fbf8c18449be765c823 data\nef\advancements\recipes\misc\dye_
 280b3681dbfdf9c2b2585fb22f20b5e72adc4da6 data\nef\advancements\recipes\misc\dye_shadowthorn.json
 ea4c91c507ab479a8cec85f34ecffe98e3d894c2 data\nef\recipes\dye_gilded_orchid.json
 56a5ed1f72c7bb382d284ddbb389c74b6bfe2ca9 data\nef\recipes\dye_flamespire.json
-5a3b901bc0e326cb97d2bedeaeb6cf53ee61c21a data\nef\advancements\recipes\misc\dye_phanom_lace.json
 8271f9a18be29ec86b55824116c84a62f6ba6565 data\nef\recipes\dye_rootfern.json
-32470ae7ea75729733e3f421001e5ddb8c4b9c3f data\nef\recipes\dye_spectral_orchid.json
+5a3b901bc0e326cb97d2bedeaeb6cf53ee61c21a data\nef\advancements\recipes\misc\dye_phanom_lace.json
 3bca2f60dd4ce81316c3a71bfe1f887c52c99ac0 data\nef\recipes\dye_mistvine.json
+32470ae7ea75729733e3f421001e5ddb8c4b9c3f data\nef\recipes\dye_spectral_orchid.json
 2942891b0fbeccfcc8484bbb4ec78d81db8cc916 data\nef\recipes\dye_emberbrush.json
 6399c95a59f5b786418686fc52aeaee3d18f0647 data\nef\advancements\recipes\misc\dye_ashen_bud.json
 30193525a3e3312e2c83a5772681e756e7211fb2 data\nef\advancements\recipes\misc\dye_mirage_lotus.json
@@ -67,9 +75,11 @@ f484d4c4e0556090d4ca5deb7b0bd9b739b496c4 data\nef\advancements\recipes\misc\dye_
 c3c1b0ff8a0344b9e7efb1bfa66e8e2fdf4584c3 data\nef\advancements\recipes\misc\dye_thornshade.json
 67bd062f1fc7d3d7f75e5859d0bf666d26ce9cda data\nef\recipes\dye_glowfern.json
 fbdf6db0d2a2d51709494dc048f397e89c29a800 data\nef\advancements\recipes\misc\dye_glowfern.json
+b732657185a0f32e8fd6955481d74f9bcfd0f2b3 data\nef\advancements\recipes\misc\stem_to_berry.json
 5d9b82ebe6cfc91e7ed710905d760c102e907020 data\nef\advancements\recipes\misc\dye_akami_rose.json
 84f26bcc3e5853a171cc2c5aa4ed194fb65f2e67 data\nef\recipes\dye_voidmoss.json
 3d0bf150d379161c41f3817b046ba869f75864f3 data\nef\recipes\dye_frost_petal.json
 b4e6bd4e92aaae92bdfd1c1e98bb027df8ae6377 data\nef\advancements\recipes\misc\dye_voidmoss.json
 3798e20e00326c9ced17ef4223f0e8754b5acc4d data\nef\recipes\dye_shadowthorn.json
+7b0f08cf220cd7903da16691f9cc8c57c11a0d33 data\nef\recipes\bowl_of_reverence_berries.json
 e019edd77a9cab1b8341bde235cdd66cac826411 data\nef\advancements\recipes\misc\dye_brightbloom.json

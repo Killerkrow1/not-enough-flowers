@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nef:block/mirage_lotus"
+    "layer0": "nef:item/flower_bundle"
   }
 }

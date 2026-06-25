@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "nef:reverence_berry"
+    },
+    "N": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BNB"
+  ],
+  "result": {
+    "item": "nef:bowl_of_reverence_berries"
+  },
+  "show_notification": true
+}

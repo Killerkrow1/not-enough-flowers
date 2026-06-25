@@ -40,6 +40,8 @@
   "itemgroup.nef_flower_tab": "Not Enough Flowers",
   "item.nef.reverence_stem": "Reverence Stem",
   "item.nef.reverence_berry": "Reverence Berry",
+  "item.nef.flower_bundle": "Flower Bundle",
   "item.nef.bowl_of_reverence_berries": "Bowl of Reverence Berries",
-  "item.nef.golden_reverence_berry": "Golden Reverence Berry"
+  "item.nef.golden_reverence_berry": "Golden Reverence Berry",
+  "tooltip.nef.flowerbundle.tooltip": "Right Click to receive 5 random flowers from Not Enough Flowers, crouch right click for 5 random flowers from the entire game."
 }

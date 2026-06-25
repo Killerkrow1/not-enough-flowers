@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.REVERENCE_BERRY);
                         entries.add(ModItems.BOWL_OF_REVERENCE_BERRIES);
                         entries.add(ModItems.GOLDEN_REVERENCE_BERRY);
+                        entries.add(ModItems.FLOWER_BUNDLE);
                         entries.add(ModBlocks.ASTRAVEN);
                         entries.add(ModBlocks.WOLFSBANE);
                         entries.add(ModBlocks.KAGAMI_BUD);
