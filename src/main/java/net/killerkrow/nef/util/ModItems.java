@@ -3,6 +3,7 @@ package net.killerkrow.nef.util;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.killerkrow.nef.NotEnoughFlowers;
 import net.killerkrow.nef.init.BerryItem;
+import net.killerkrow.nef.init.FlowerBundle;
 import net.killerkrow.nef.init.GoldenBerryItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.StewItem;
@@ -20,6 +21,8 @@ public class ModItems {
             new Item(new FabricItemSettings().food(ModFoodComponents.REVERENCE_STEM)));
     public static final Item BOWL_OF_REVERENCE_BERRIES = registerItem("bowl_of_reverence_berries",
             new StewItem(new FabricItemSettings().food(ModFoodComponents.BOWL_OF_REVERENCE_BERRIES).maxCount(16)));
+    public static final Item FLOWER_BUNDLE = registerItem("flower_bundle",
+            new FlowerBundle(new FabricItemSettings().maxCount(16)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(NotEnoughFlowers.MOD_ID, name), item);
